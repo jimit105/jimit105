@@ -38,3 +38,6 @@ medium = '<details><summary><strong>:page_with_curl: Medium Articles</strong></s
 
 
 readme = '\n'.join([intro, certifications, medium, links])
+
+with open('README.md', 'w') as f:
+    f.write(readme)
