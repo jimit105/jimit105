@@ -12,13 +12,13 @@ import urllib.parse
 
 #updated  ='Last Updated on: ' + time.strftime('%b %d, %Y %X %Z', time.localtime())
 current_time = time.strftime('%b %d, %Y %X %Z', time.localtime())
-updated = '![Last Updated](https://img.shields.io/badge/Last%20Updated%20on-' + \
-    urllib.parse.quote(current_time) + '-brightgreen)'
+# updated = '![Last Updated](https://img.shields.io/badge/Last%20Updated%20on-' + \
+#    urllib.parse.quote(current_time) + '-brightgreen)'
 
 with open('intro.md') as f:
     intro = f.read()
 
-intro += updated
+# intro += updated
 
 with open('certifications.md') as f:
     certifications = f.read()
