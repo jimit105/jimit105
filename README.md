@@ -3,7 +3,7 @@
 <p>:house: Mumbai, India :india:</p>
 
 [![README Update](https://github.com/jimit105/jimit105/workflows/README%20Update/badge.svg?branch=master)](https://github.com/jimit105/jimit105/actions)&nbsp;
-![Last Updated](https://img.shields.io/badge/Last%20Updated%20on-Aug%2010%2C%202020%2000%3A01%3A00%20UTC-brightgreen)
+![Last Updated](https://img.shields.io/badge/Last%20Updated%20on-Aug%2011%2C%202020%2000%3A00%3A47%20UTC-brightgreen)
 <details>
   <summary><strong>:star2: Certifications</strong></summary>
   <p>
