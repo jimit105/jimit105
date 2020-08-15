@@ -9,6 +9,10 @@ Created on Tue Aug  4 10:56:00 2020
 import feedparser
 import time
 import urllib.parse
+import os
+
+os.environ['TZ'] = 'Asia/Kolkata'
+time.tzset()
 
 #updated  ='Last Updated on: ' + time.strftime('%b %d, %Y %X %Z', time.localtime())
 current_time = time.strftime('%b %d, %Y %X %Z', time.localtime())
