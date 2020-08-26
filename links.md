@@ -1,4 +1,4 @@
-<details>
+<details open>
   <summary><strong>:anchor: Links</strong></summary>
   <p>
     <ul>
