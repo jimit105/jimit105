@@ -34,7 +34,7 @@ feed_url = 'https://medium.com/feed/@jimit105'
 feed = feedparser.parse(feed_url)
 
 articles = ''
-for entry in feed.entries[:10]:
+for entry in feed.entries:
     articles += '<li><a href="' + entry.link + '">' + entry.title + '</a></li>'
 
 medium = '<details><summary><h3>:page_with_curl: Medium Articles</h3></summary><p><ul>' + \
