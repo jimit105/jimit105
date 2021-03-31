@@ -1,5 +1,5 @@
 <details open>
-  <summary><strong>:anchor: Links</strong></summary>
+  <summary><h3>:anchor: Links</h3></summary>
   <p>
     <ul>
       <li>:computer: LinkedIn: <a href="https://www.linkedin.com/in/jimit105/">jimit105</a></li>
