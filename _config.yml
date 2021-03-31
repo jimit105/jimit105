@@ -1,0 +1,20 @@
+google_analytics: UA-136790987-1
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+twitter:
+  username: jimit105
+  card: summary
+  
+social:
+  name: Jimit Dholakia
+  links:
+    - https://www.linkedin.com/in/jimit105/
+    - https://github.com/jimit105
+    - https://jimit105.medium.com/
+    
+author:
+  twitter: jimit105
