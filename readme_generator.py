@@ -37,7 +37,7 @@ articles = ''
 for entry in feed.entries:
     articles += '<li><a href="' + entry.link + '">' + entry.title + '</a></li>'
 
-medium = '<details><summary><strong>:page_with_curl: Medium Articles</strong></summary><p><ul>' + \
+medium = '<details open><summary><strong>:page_with_curl: Medium Articles</strong></summary><p><ul>' + \
     articles + '</ul></p></details>'
 
 
