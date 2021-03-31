@@ -1,5 +1,5 @@
 <details>
-  <summary><h3>:star2: Certifications</h3></summary>
+  <summary><strong>:star2: Certifications</strong></summary>
   <p>
     <ul>
       <li>Deep Learning Specialization (deeplearning.ai / Coursera)</li>
