@@ -41,7 +41,7 @@ medium = '<details open><summary><strong>:page_with_curl: Medium Articles</stron
     articles + '</ul></p></details>'
 
 
-readme = '\n'.join([intro, certifications, medium, links])
+readme = '\n'.join([intro, medium, certifications, links])
 
 with open('README.md', 'w') as f:
     f.write(readme)
