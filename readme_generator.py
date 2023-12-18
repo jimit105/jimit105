@@ -32,6 +32,7 @@ with open('links.md') as f:
 
 feed_url = 'https://jimit105.medium.com/feed'
 feed = feedparser.parse(feed_url)
+print("Medium Feed Parsed")
 
 articles = ''
 for entry in feed.entries:
@@ -45,3 +46,5 @@ readme = '\n'.join([intro, medium, certifications, links])
 
 with open('README.md', 'w') as f:
     f.write(readme)
+
+print("README generated successfully")
