@@ -22,7 +22,7 @@ updated = '![Last Updated](https://img.shields.io/badge/Last%20Updated%20on-' + 
 with open('intro.md') as f:
     intro = f.read()
 
-# intro += updated
+intro += updated
 
 with open('certifications.md') as f:
     certifications = f.read()
