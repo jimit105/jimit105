@@ -4,8 +4,6 @@
 name: README Update
 
 on:
-  push:
-    branches: [ master ]
   schedule:
     - cron: "5 10 * * 1"
   workflow_dispatch:
