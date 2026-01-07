@@ -25,6 +25,7 @@ with open('links.md') as f:
 
 feed_url = 'https://jimit105.substack.com/feed'
 feed = feedparser.parse(feed_url)
+print(f"Fetched {len(feed.entries)} articles from RSS Feed")
 print("Substack Newsletter Feed Parsed")
 
 articles = ''
@@ -41,4 +42,5 @@ with open('README.md', 'w') as f:
     f.write(readme)
 
 print("README generated successfully")
+
 
