@@ -23,25 +23,26 @@ with open('certifications.md') as f:
 with open('links.md') as f:
     links = f.read()
 
-feed_url = 'https://jimit105.substack.com/feed'
-feed = feedparser.parse(feed_url, agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
+feed_url = 'https://jimit105.medium.com/feed'
+feed = feedparser.parse(feed_url)
 print(f"Fetched {len(feed.entries)} articles from RSS Feed")
-print("Substack Newsletter Feed Parsed")
+print("Medium Newsletter Feed Parsed")
 
 articles = ''
 for entry in feed.entries:
     articles += '<li><a href="' + entry.link + '">' + entry.title + '</a></li>'
 
-substack = '<details open><summary><strong>:page_with_curl: Substack Posts</strong></summary><p><ul>' + \
+feed_articles = '<details open><summary><strong>:page_with_curl: Medium Posts</strong></summary><p><ul>' + \
     articles + '</ul></p></details>'
 
 
-readme = '\n'.join([intro, substack, certifications, links])
+readme = '\n'.join([intro, feed_articles, certifications, links])
 
 with open('README.md', 'w') as f:
     f.write(readme)
 
 print("README generated successfully")
+
 
 
 
