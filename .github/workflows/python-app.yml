@@ -32,9 +32,8 @@ jobs:
         python readme_generator.py
     - name: Deploy
       run: |
-          git diff --name-only --exit-code && exit 0
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add README.md
-          git commit -m "Update README contents [skip ci]"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update README contents [skip ci]"
+          git push
